@@ -1,11 +1,18 @@
-import './App.css'
+import React from 'react';
 
-function App() {
-  return (
-    <>
-      Test
-    </>
-  )
-}
+import { Navbar } from './components';
+import './App.css';
 
-export default App
+const App = () => (
+  <div className="app">
+    <div className="navbar">
+      <Navbar />
+    </div>
+    <div className="main">
+      <div className="footer">
+      </div>
+    </div>
+  </div>
+);
+
+export default App;
