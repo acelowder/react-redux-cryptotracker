@@ -17,11 +17,6 @@ const items = [
     label: <Link to="/cryptocurrencies">Cryptocurrencies</Link>,
   },
   {
-    key: 'exchanges',
-    icon: <MoneyCollectOutlined />,
-    label: <Link to="/exchanges">Exchanges</Link>,
-  },
-  {
     key: 'news',
     icon: <BulbOutlined />,
     label: <Link to="/news">News</Link>,
